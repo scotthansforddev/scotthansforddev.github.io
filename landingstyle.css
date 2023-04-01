@@ -1,23 +1,33 @@
+/* css color variables */
+:root {
+  --main-back: #3d2875;
+  --main-light: #b59ef7;
+  --main-bright: #7e53f5;
+  --main-dark: #564b75;
+  --main-mid: #6341c2;
+}
+
 body {
   padding: 10%;
-  background-color: cadetblue;
+  background-color: var(--main-back);
 }
 
 .landing {
+  color: var(--main-bright);
   font-size: large;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20fr;
-  background: rgba(133, 56, 241, 0.5);
+  background: var(--main-bright);
   color: #fff;
   padding: 20px;
   margin: 20px;
   border-radius: 5px;
   flex-direction: column;
-  text-shadow: rgb(215, 4, 208) 2px 2px 1px;
+  text-shadow: var(--main-mid) 2px 2px 1px;
   border-radius: 20px;
-  box-shadow: rgb(215, 4, 208) 2px 2px 1px;
+  box-shadow: var(--main-mid) 2px 2px 1px;
 }
 
 .announce,
@@ -31,5 +41,5 @@ p {
   height: 50px;
   width: 50px;
   font-size: 50px;
-  text-shadow: rgb(215, 4, 208) 1px 1px 1px;
+  text-shadow: var(--main-light) 2px 2px 1px;
 }
