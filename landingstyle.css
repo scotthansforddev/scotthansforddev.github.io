@@ -1,0 +1,35 @@
+body {
+  padding: 10%;
+  background-color: cadetblue;
+}
+
+.landing {
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20fr;
+  background: rgba(133, 56, 241, 0.5);
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  flex-direction: column;
+  text-shadow: rgb(215, 4, 208) 2px 2px 1px;
+  border-radius: 20px;
+  box-shadow: rgb(215, 4, 208) 2px 2px 1px;
+}
+
+.announce,
+.subannounce {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+  text-shadow: rgb(215, 4, 208) 1px 1px 1px;
+}
