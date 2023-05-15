@@ -28,7 +28,7 @@ body {
   flex-direction: column;
   text-shadow: var(--main-mid) 2px 2px 1px;
   border-radius: 20px;
-  box-shadow: var(--main-mid) 2px 2px 1px;
+  box-shadow: var(--main-dark) 4px 4px 4px;
 }
 
 .announce,
