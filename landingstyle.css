@@ -38,7 +38,7 @@ body {
   align-items: center;
 }
 .links {
-  border: var(--main-back) 3px solid;
+  border: var(--main-mid) 3px solid;
   border-radius: 5px;
   box-shadow: var(--main-back) 2px 2px 1px;
   padding: 15px;
