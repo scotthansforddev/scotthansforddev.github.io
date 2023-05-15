@@ -5,6 +5,7 @@
   --main-bright: #7e53f5;
   --main-dark: #564b75;
   --main-mid: #6341c2;
+  --main-shadow: #120E6B;
 }
 
 body {
@@ -28,7 +29,7 @@ body {
   flex-direction: column;
   text-shadow: var(--main-mid) 2px 2px 1px;
   border-radius: 20px;
-  box-shadow: var(--main-dark) 4px 4px 4px;
+  box-shadow: var(--main-shadow) 4px 4px 4px;
 }
 
 .announce,
@@ -40,7 +41,7 @@ body {
 .links {
   border: var(--main-mid) 3px solid;
   border-radius: 5px;
-  box-shadow: var(--main-back) 2px 2px 1px;
+  box-shadow: var(--main-shadow) 2px 2px 1px;
   padding: 15px;
 }
 p {
