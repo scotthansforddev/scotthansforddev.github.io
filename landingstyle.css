@@ -14,6 +14,7 @@ body {
 
 .landing {
   color: var(--main-bright);
+  text-align: center;
   font-size: large;
   display: flex;
   align-items: center;
@@ -36,7 +37,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.links {
+  border: var(--main-back) 3px solid;
+  border-radius: 5px;
+  box-shadow: var(--main-back) 2px 2px 1px;
+  padding: 15px;
+}
 p {
   height: 50px;
   width: 50px;

@@ -1,3 +1,4 @@
 # scotthansforddev.github.io
 
-##Homepage start
+##Homepage
+I am currently migrating my portfolio from a different domain to this one!
